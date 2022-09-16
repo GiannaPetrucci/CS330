@@ -52,4 +52,22 @@
  
 
 
+
+
+ ### Getting Started
+ 
+ To begin coding in C++ you will need to set some things up first. The first thing to do is
+ choose your IDE. I went with Visual Studio Code because I already had this installed and
+ I am familiar with using it. Eclipse is another popular option. I also needed to install
+ the C++/C extension on VSCode as well as a compiler (I went with Clang). To run a program
+ in C++ you will first need to "run build" on your code. This compiles it altogether, and
+ then I am able to run the file as usual in VSCode with the Run button. To write a single
+ line comment in C++ use two slashes:
+ 
+ // This would be a single line comment
+ 
+ To comment out multiple lines of code, encase the section in slashes and astericks:
+ 
+ /* This can comment out a big chunk of code */
+ 
  
