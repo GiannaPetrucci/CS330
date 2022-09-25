@@ -81,6 +81,29 @@
  
  ![Reserved Words Table](Images/ReservedKeywords.png)
  
+ #### Variable Naming Rules
+ 
+ - Variables must be unique from one another (cannot have two variables both named x)
+ - Must begin with a letter or underscore (1name is not acceptable but oneName or _Name are)
+ - They are case sensitive, making myVariable and myvariable, two different identifiers
+ - Variables cannot have spaces or special characters like !, @, $, &, etc.
+ - Reserved Words cannot be used
+ - Numbers can be a part of a variable as long as they are not at the beginning (hello1 is fine)
+
+
+ #### Naming Conventions
+ 
+ C++ is a statically typed language, which means the data types must be declared. It is strongly typed
+ which is enforced by a compiler. This ensures you are not doing something such as trying to add a sentence
+ and number together. Variables in C++ are not mutable unless the "mutable" keyword is used before the variable 
+ assignment. This allows you to change the value of the variable later on.
+ 
+ C++ **Strings** can be compared and assigned with the standard comparison operators: ==, != , <=, >=, <, >, and =.
+ **Assignment** operators can also be used to assign value to strings. For example, x = 12, assigns 12 to x.
+ 
+ **Integers**, **Floats**, and **Doubles** can also use comparison operators as well as arithmatic operators such
+ as +, -, *, %, and /. **Increment** and **Decrement** operators can also be used on these number types to increase
+ (++) or decrease (--) their value by one.
 
  
  
