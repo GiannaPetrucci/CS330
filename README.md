@@ -71,3 +71,14 @@
  /* This can comment out a big chunk of code */
  
  
+ 
+ ### Data Types and Naming Conventions
+ 
+ **Reserved Words**
+ 
+ Some words should not be used as variable, class, file, or function names as they are
+ part of built in processes in C++. These reserved key words are: 
+ 
+
+ 
+ 
