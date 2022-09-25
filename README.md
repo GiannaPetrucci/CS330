@@ -113,6 +113,7 @@ from "smaller" to "larger" data types. It follows this pattern starting at the l
 So if an int and float are added, they will be converted to the larger "float". However, you cannot add a string and an int.
 
 **Binding**
+
 C++ uses early-binding, where a compiler directly associate an address to the function call. Therefore variables will be bound
 when the compiler runs.
  
