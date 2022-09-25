@@ -114,7 +114,7 @@ So if an int and float are added, they will be converted to the larger "float". 
 
 **Binding**
 
-C++ uses early-binding, where a compiler directly associate an address to the function call. Therefore variables will be bound
+C++ uses early-binding, where a compiler directly associates an address to the function call. Therefore variables will be bound
 when the compiler runs.
  
  
