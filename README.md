@@ -79,6 +79,8 @@
  Some words should not be used as variable, class, file, or function names as they are
  part of built in processes in C++. These reserved key words are: 
  
+ ![Reserved Words Table](images/ReservedKeywords.jpg)
+ 
 
  
  
