@@ -93,7 +93,7 @@
 
  #### Naming Conventions
  
- C++ is a statically typed language, which means the data types must be declared. It is strongly typed
+ C++ is a statically typed explicit programming language, which means the data types must be declared. It is strongly typed
  which is enforced by a compiler. This ensures you are not doing something such as trying to add a sentence
  and number together. Variables in C++ are not mutable unless the "mutable" keyword is used before the variable 
  assignment. This allows you to change the value of the variable later on.
@@ -105,5 +105,15 @@
  as +, -, *, %, and /. **Increment** and **Decrement** operators can also be used on these number types to increase
  (++) or decrease (--) their value by one.
 
+Typically mixing different data types is avoided in C++. However, when it is utilized types are automatically converted
+from "smaller" to "larger" data types. It follows this pattern starting at the lowest:
+
+              char -> short -> int -> long -> float -> double -> long double
+
+So if an int and float are added, they will be converted to the larger "float". However, you cannot add a string and an int.
+
+**Binding**
+C++ uses early-binding, where a compiler directly associate an address to the function call. Therefore variables will be bound
+when the compiler runs.
  
  
