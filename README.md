@@ -136,7 +136,7 @@ statement, which functions the same as the switch statement in Java condensing d
 
 #### Delimiters
 
-'''cpp
+```cpp
 if (firstCondition is true) {
   cout << "First Condition True" <<endl;
 } else if (secondCondition) {
@@ -144,7 +144,7 @@ if (firstCondition is true) {
 } else {
   cout << "First and Second Conditions are False" <<endl;
 }
-'''
+```
 
 
  
