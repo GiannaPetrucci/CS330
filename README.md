@@ -136,16 +136,29 @@ statement, which functions the same as the switch statement in Java condensing d
 
 #### Delimiters
 
+Conditions are encased in paretheses. This can be seen in the example below where (firstCondition is true) and (secondCondition is true). Following the 
+condition is the result in curly brackets. If the first condition is true then "First Condition True" will be printed. The curly brackets close before the next else if or else statement begins. This pattern would repeat for however many else if statements. 
+ 
 ```cpp
 if (firstCondition is true) {
   cout << "First Condition True" <<endl;
-} else if (secondCondition) {
+} else if (secondCondition is true) {
   cout << "First Condition False,Second Condition True" <<endl;
 } else {
   cout << "First and Second Conditions are False" <<endl;
 }
 ```
 
+Delimiters are different in **switch statements**. 
 
- 
- 
+```cpp
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block 
+```
