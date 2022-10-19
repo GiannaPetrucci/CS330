@@ -175,3 +175,14 @@ In the example above, the first **IF** statement is false so the **IF ELSE** sta
 fulfills the condition the final else statement will not be considered. If there was another **IF ELSE** or five more none would be evaluated because
 the first one fulfills the condition. 
 
+#### Dangling Else
+
+An example of a dangling else, where there are nested **IFS** and the **ELSE** does not know which one to go to, can be seen below.
+
+https://github.com/GiannaPetrucci/CS330/blob/54312045e3eee32ac37d4a28720214e8fdb88751/PLP3/danglingElse.cpp#L1-L19
+
+In this scenario x is equal to 12. The first **IF** is false/0 because x does not equal 
+10. But the second **IF** does not matter even though it is true, x is smaller than 50.
+In this case the second **IF** is passed over and the **ELSE** statement prints out
+"dangling else".
+
