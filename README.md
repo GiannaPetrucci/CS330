@@ -134,6 +134,18 @@ C++ does not have a wide variety of conditional statements. There are **IF** sta
 be on its own. **ELSE IF** statements which also cannot be standalone and are wedged in between **IF** and **ELSE** statements. And finally a **SWITCH**
 statement, which functions the same as the switch statement in Java condensing different conditions and outcomes into one chunk.
 
+#### Delimiters
+
+'''c++
+if (firstCondition is true) {
+  cout << "First Condition True" <<endl;
+} else if (secondCondition) {
+  cout << "First Condition False,Second Condition True" <<endl;
+} else {
+  cout << "First and Second Conditions are False" <<endl;
+}
+'''
+
 
  
  
