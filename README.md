@@ -186,3 +186,7 @@ In this scenario x is equal to 12. The first **IF** is false/0 because x does no
 In this case the second **IF** is passed over and the **ELSE** statement prints out
 "dangling else".
 
+#### Note on Switch Statements
+
+Switch statements require **break** keywords after each case. This tells the program that if a case is true, do not test the
+others. **Continue** keywords cannot be used in switch statements.
