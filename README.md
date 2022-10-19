@@ -149,16 +149,18 @@ if (firstCondition is true) {
 }
 ```
 
-Delimiters are different in **switch statements**. 
+Delimiters are different in **switch statements**. This can be seen in the framework for a switch statement below.
 
 ```cpp
 switch(expression) {
-  case x:
-    // code block
+  case a:
+    
     break;
-  case y:
-    // code block
+  case b:
+    
     break;
   default:
-    // code block 
+  
+  }
+    
 ```
