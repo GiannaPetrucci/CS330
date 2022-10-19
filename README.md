@@ -119,13 +119,20 @@ when the compiler runs.
 
 
 
-#### Booleans
+### Booleans
 
 While coding **true** or **false** can be used to represent boolean values. However, they are stored as 0 and 1. 
 
 This can be seen in the code example below.
 
 https://github.com/GiannaPetrucci/CS330/blob/7a60adc472fc1a19398e35f96cbc480103fe304d/PLP3/conditionals.cpp#L1-L14
+
+
+### Conditional Statements
+
+C++ does not have a wide variety of conditional statements. There are **IF** statements which can stand alone. **IF/ELSE** statements, as ELSE cannot
+be on its own. **ELSE IF** statements which also cannot be standalone and are wedged in between **IF** and **ELSE** statements. And finally a **SWITCH**
+statement, which functions the same as the switch statement in Java condensing different conditions and outcomes into one chunk.
 
 
  
