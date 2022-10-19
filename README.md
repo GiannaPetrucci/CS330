@@ -171,4 +171,7 @@ C++ does utilize short circuit evaluation, which means in an **AND** statement i
 not be evaluated. Similarly in **OR** statements, if the first boolean is true, it will not check the other ones. 
 
 https://github.com/GiannaPetrucci/CS330/blob/dda8bcc73f6d0ff4bde2b996eb42ca2d37f19ef3/PLP3/conditionals.cpp#L23-L31
+In the example above, the first **IF** statement is false so the **IF ELSE** statement will be evaluated. Because isPython is equal to 0/false which
+fulfills the condition the final else statement will not be considered. If there was another **IF ELSE** or five more none would be evaluated because
+the first one fulfills the condition. 
 
