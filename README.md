@@ -164,3 +164,11 @@ switch(expression) {
   }
     
 ```
+
+#### Short Circuiting
+
+C++ does utilize short circuit evaluation, which means in an **AND** statement if the first boolean is false, other booleans in the conditional will
+not be evaluated. Similarly in **OR** statements, if the first boolean is true, it will not check the other ones. 
+
+https://github.com/GiannaPetrucci/CS330/blob/dda8bcc73f6d0ff4bde2b996eb42ca2d37f19ef3/PLP3/conditionals.cpp#L23-L31
+
