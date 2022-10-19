@@ -116,5 +116,17 @@ So if an int and float are added, they will be converted to the larger "float". 
 
 C++ uses early-binding, where a compiler directly associates an address to the function call. Therefore variables will be bound
 when the compiler runs.
+
+
+
+#### Booleans
+
+While coding **true** or **false** can be used to represent boolean values. However, they are stored as 0 and 1. 
+
+This can be seen in the code example below.
+
+https://github.com/GiannaPetrucci/CS330/blob/7a60adc472fc1a19398e35f96cbc480103fe304d/PLP3/conditionals.cpp#L1-L14
+
+
  
  
