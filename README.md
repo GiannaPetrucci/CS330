@@ -290,7 +290,8 @@ of your code where "#include <iostream>" is located. This will allow you to save
  A basic tutorial on using these keywords can be found [here](https://courses.engr.illinois.edu/cs225/fa2022/resources/stack-heap/).
 
  
- ###Scope of Variables
+ ### Scope of Variables
+	
  There are two main scopes of variables in C++. They are global and local variables. 
  
  **Local Variables**
@@ -305,3 +306,12 @@ of your code where "#include <iostream>" is located. This will allow you to save
 ```
  int a and int b are local variables to the product() function, they cannot be accessed outside of this function. If we try to
  perform division on them outside of their curly braces, we will recieve an error.
+
+	
+**Global Variables** 
+If you think of a program as being a little world, global variables can be accessed anywhere in that world. They are
+declared at the beginning of a program outside of any functions or code blocks using the global keyword ```int global = 10;```.
+
+Global variables can be used inside any function or code block in the program.
+
+
