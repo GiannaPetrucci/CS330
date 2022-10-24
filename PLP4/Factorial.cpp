@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//Declaration before Main
 int fact(int n);
 
 int main()
@@ -15,6 +16,7 @@ int main()
     return 0;
 }
 
+//Definition after Main
 int fact(int n)
 {
     if(n > 1)
