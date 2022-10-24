@@ -199,3 +199,12 @@ at the beginning or "entry" before continuing on to the actions taking place in 
 implies the loop is executed and then the end or "exit" condition is tested. These categories are illustrated in the diagram below from [GeeksforGeeks.org](https://www.geeksforgeeks.org/cpp-loops/).
 
 ![Loop Diagram](Images/LoopDiagram.png)
+
+
+**For Loop Example**
+
+https://github.com/GiannaPetrucci/CS330/blob/859d3fd7184928be62df2052a12d70fe1f2159ee/PLP4/Loops.cpp#L6-L14
+
+This is the format of a basic For loop. The initilizing, conditional statement, and variable incrementing
+are all done in the same paretheses. Then in curly braces is the body of the loop, which will print "Loop
+Pass Number:" followed by the loop number, until it reaches the condition of 10. The return statement is needed and it commented out so the other loops on this file can run. 
