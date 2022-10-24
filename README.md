@@ -288,3 +288,20 @@ of your code where "#include <iostream>" is located. This will allow you to save
  will send that item to the **heap**. In order to deallocate, the ```delete``` keyword will be required.
  
  A basic tutorial on using these keywords can be found [here](https://courses.engr.illinois.edu/cs225/fa2022/resources/stack-heap/).
+
+ 
+ ###Scope of Variables
+ There are two main scopes of variables in C++. They are global and local variables. 
+ 
+ **Local Variables**
+ As the name implies, these variables can be found locally/within a function. They cannot be accessed outside of their code block
+ or function. For example, in our multiplication function from the **Functions** section above:
+ 
+ ```
+ int product(int a, int b)
+{
+	return (a*b);
+}
+```
+ int a and int b are local variables to the product() function, they cannot be accessed outside of this function. If we try to
+ perform division on them outside of their curly braces, we will recieve an error.
