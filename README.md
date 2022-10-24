@@ -195,7 +195,7 @@ others. **Continue** keywords cannot be used in switch statements.
 ### Loops
 
 There are two categories of loops that can be implemented in C++. The first kind is Entry Controlled. This is where the condition is tested
-at the beginning or "entry" before continuing on to the actions taking place in the loop. The second kind is exit controlled, where as the name
+at the beginning or "entry" before continuing on to the actions taking place in the loop. The second kind is Exit Controlled, where as the name
 implies the loop is executed and then the end or "exit" condition is tested. These categories are illustrated in the diagram below from [GeeksforGeeks.org](https://www.geeksforgeeks.org/cpp-loops/).
 
 ![Loop Diagram](Images/LoopDiagram.png)
@@ -217,3 +217,15 @@ A While loop in C++ looks fairly similar to one in Python. The variable is initi
 the condition is run. If the condition is met, the body message will print and the variable
 increased by 1. Similar to the For loop above parentheses and curly braces are used. Unlike
 Python spacing and indentation does not matter, except for making things more readable.
+
+**Do While Loop**
+
+https://github.com/GiannaPetrucci/CS330/blob/380490b1b125ff3556bd0d42dfe37cf996a25b0e/PLP4/Loops.cpp#L35-L48
+
+The Do While loop uses the same structure of curly braces and parentheses except they appear 
+in the reverse order. This is because this loop executes the body (line 40) first and **then**
+checks the while condition. This may seem unnatural to Python programmers at first, but this
+Exit Controlled type of loop can also be seen in Java. 
+
+This loop will only run and execute once as i is set to 4, then incremented making i = 5, and
+then the condition tests is i is not equal to 5, which it does not meet anymore. 
