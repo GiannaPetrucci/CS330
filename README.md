@@ -208,3 +208,12 @@ https://github.com/GiannaPetrucci/CS330/blob/859d3fd7184928be62df2052a12d70fe1f2
 This is the format of a basic For loop. The initilizing, conditional statement, and variable incrementing
 are all done in the same paretheses. Then in curly braces is the body of the loop, which will print "Loop
 Pass Number:" followed by the loop number, until it reaches the condition of 10. The return statement is needed and it commented out so the other loops on this file can run. 
+
+**While Loop Example**
+
+https://github.com/GiannaPetrucci/CS330/blob/380490b1b125ff3556bd0d42dfe37cf996a25b0e/PLP4/Loops.cpp#L19-L31
+
+A While loop in C++ looks fairly similar to one in Python. The variable is initialized, then 
+the condition is run. If the condition is met, the body message will print and the variable
+increased by 1. Similar to the For loop above parentheses and curly braces are used. Unlike
+Python spacing and indentation does not matter, except for making things more readable.
