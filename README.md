@@ -240,3 +240,17 @@ https://github.com/GiannaPetrucci/CS330/blob/5d9d95ff9583a02db0b7b1f7296848fb61b
 In C++ function declarations can be separated from their definitions. This is because 
 functions **must** be declared before the main(). The definition can be before or after. In
 this example the definition is after the main() starting on line 28. 
+
+Functions in C++ accept multiple parameters, as shown in the product() function which takes two.
+Parameters can be different data types, but here we see two integers a and b. 
+
+**Recursion**
+
+C++ does support recursive functions as shown in the factorial example below.
+
+https://github.com/GiannaPetrucci/CS330/blob/8d93463a987f7ab98eeb1e628dd1a8294fc15c32/PLP4/Factorial.cpp#L1-L26
+
+The function is again declared before main() while the actual definition of the function comes
+after. As with recursion in any language you need to test your code as you write it so you
+do not accidentally make a function that calls itself infinetly (unless that is it's purpose).
+
