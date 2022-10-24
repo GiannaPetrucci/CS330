@@ -270,9 +270,18 @@ of your code where "#include <iostream>" is located. This will allow you to save
  https://github.com/GiannaPetrucci/CS330/blob/c6fe4fb20289418aa828a7087eed371d0753fb63/PLP4/ValueReference.cpp#L1-L22
  
  
- ###Stack and Heap Storage
  
- A diagram for the memory layout of C++ is below. This is a very generalized version and does not include details about specific pointers.
+ 
+ ### Stack and Heap Storage
+ 
+ A diagram for the memory layout of C++ is below. This is a very generalized version and does not 
+ include details about specific pointers.
+ 
  
  ![Memory Allocation](Images/memoryLayout.png)
  
+
+ Local variables, arguments, and parameters are stored on the **stack** by default. After a function returns the stack memory
+ of that function is automatically deallocated. 
+ 
+ **Heap** memory must be explicitly coded by the programmer and will **not** deallocate automatically.
