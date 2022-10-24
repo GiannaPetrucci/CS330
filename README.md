@@ -260,7 +260,13 @@ A single function in C++ cannot return multiple values. However there is a work-
 multiple values are saved in a tuple. You must make sure "#include <tuple>" is at the beginning
 of your code where "#include <iostream>" is located. This will allow you to save three
  values together and return them as a set. 
+
  
- ####Pass by Value
+ **Pass by Value or Reference**
+ 
+ C++ uses pass by value by default, but it can be forced to use pass by reference. This is 
+ seen in the example below in the first function on line 4. 
+ 
+ https://github.com/GiannaPetrucci/CS330/blob/c6fe4fb20289418aa828a7087eed371d0753fb63/PLP4/ValueReference.cpp#L1-L22
  
  
