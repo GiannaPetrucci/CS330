@@ -286,3 +286,5 @@ of your code where "#include <iostream>" is located. This will allow you to save
  
  **Heap** memory must be explicitly coded by the programmer and will **not** deallocate automatically. The key word ```new```
  will send that item to the **heap**. In order to deallocate, the ```delete``` keyword will be required.
+ 
+ A basic tutorial on using these keywords can be found [here](https://courses.engr.illinois.edu/cs225/fa2022/resources/stack-heap/).
