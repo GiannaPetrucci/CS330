@@ -284,4 +284,5 @@ of your code where "#include <iostream>" is located. This will allow you to save
  Local variables, arguments, and parameters are stored on the **stack** by default. After a function returns the stack memory
  of that function is automatically deallocated. 
  
- **Heap** memory must be explicitly coded by the programmer and will **not** deallocate automatically.
+ **Heap** memory must be explicitly coded by the programmer and will **not** deallocate automatically. The key word ```cpp new```
+ 
