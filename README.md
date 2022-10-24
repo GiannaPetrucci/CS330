@@ -254,3 +254,13 @@ The function is again declared before main() while the actual definition of the 
 after. As with recursion in any language you need to test your code as you write it so you
 do not accidentally make a function that calls itself infinetly (unless that is it's purpose).
 
+**Returning Multiple Values**
+
+A single function in C++ cannot return multiple values. However there is a work-around. If
+multiple values are saved in a tuple. You must make sure "#include <tuple>" is at the beginning
+of your code where "#include <iostream>" is located. This will allow you to save three
+ values together and return them as a set. 
+ 
+ ####Pass by Value
+ 
+ 
