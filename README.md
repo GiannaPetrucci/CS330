@@ -198,4 +198,4 @@ There are two categories of loops that can be implemented in C++. The first kind
 at the beginning or "entry" before continuing on to the actions taking place in the loop. The second kind is exit controlled, where as the name
 implies the loop is executed and then the end or "exit" condition is tested. These categories are illustrated in the diagram below from [GeeksforGeeks.org](https://www.geeksforgeeks.org/cpp-loops/).
 
-![Loop Diagram](Images/LoopDiagram.png]
+![Loop Diagram](Images/LoopDiagram.png)
