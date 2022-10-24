@@ -229,3 +229,14 @@ Exit Controlled type of loop can also be seen in Java.
 
 This loop will only run and execute once as i is set to 4, then incremented making i = 5, and
 then the condition tests is i is not equal to 5, which it does not meet anymore. 
+
+
+### Functions 
+
+An example of a multiplication function in C++ can be seen below.
+
+https://github.com/GiannaPetrucci/CS330/blob/5d9d95ff9583a02db0b7b1f7296848fb61b63801/PLP4/multiply.cpp#L1-L31
+
+In C++ function declarations can be separated from their definitions. This is because 
+functions **must** be declared before the main(). The definition can be before or after. In
+this example the definition is after the main() starting on line 28. 
