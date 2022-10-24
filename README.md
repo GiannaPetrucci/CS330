@@ -315,3 +315,17 @@ declared at the beginning of a program outside of any functions or code blocks u
 Global variables can be used inside any function or code block in the program.
 
 
+### Side Effects
+	
+Side effects are when a function does something it does not communicate and something that might not be anticipated. This is
+possible in C++. 
+
+**Ways to prevent side effects in C++** include: 
+	
+	- Keeping track of your local and global variables. You may accidentally modify a global thinking you are changing
+	something that will only occur in a function. Reducing your overall number of global variables is a good practice.
+	
+	- Using call by value parameters instead of call by reference. Reference parameters allow values to flow both ways and
+	leave more room for error.
+	
+	- And of course by using debugging tools on IDE's to track down where your bugs are originating.
