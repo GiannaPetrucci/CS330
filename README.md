@@ -399,5 +399,15 @@ again calls the functions and pulls everything together. This makes our output: 
 **Multiple Inheritance**
 As previously mentioned, C++ supports multiple inheritance. This is when our child class is
 inherited from more than one parent class.
+	
+For example, our child class Student can also inherit from an Athlete class in addition to the
+person class. This means our Student class would now have information on the student as a
+person and an athlete.
+
+We could add another class like Pets, and now also keep track of the student's pets or lack
+thereof. 
+	
+The diagram below shows our Student class inheriting from multiple parents.
 
 ![Multi Inheritance](Images/flowchart.png)
+
