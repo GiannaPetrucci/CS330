@@ -400,4 +400,4 @@ again calls the functions and pulls everything together. This makes our output: 
 As previously mentioned, C++ supports multiple inheritance. This is when our child class is
 inherited from more than one parent class.
 
-![Multi Inheritance](Images/Screenshot 2022-12-04 at 1.05.38 PM.png)
+![Multi Inheritance](Images/flowchart.png)
