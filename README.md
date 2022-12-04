@@ -349,10 +349,45 @@ which brings everything together.
 https://github.com/GiannaPetrucci/CS330/blob/63c3b9160fd9daaf8306a040335e830493a05646/PLP5/Person.cpp#L2-L23
 
 The output will be: ```Their name is Bob```.
+	
+Another version of a display function will be shown in the inheritance section below.
 
-####What About Inheritance?
+#### What About Inheritance?
 C++ supports inheritance and multiple inheritance. This means a file such as Person.cpp can be
 a base or parent class, where the child class inherits it's functions and properties. This
 means we can make something like a Student class and not need to rewrite a name function, as
 it can be inherited from the Person class. 
+	
+```
+#include <iostream>
+using namespace std;
+class Person {
+	
+	public: // Lets us know class and objects and methods in class are public
+		string name = "Bob";
+
+	void printname() {cout << "Their name is " << name; }
+};
+
+
+
+class Student: public Person {
+public:
+	
+	string major;
+	void string_s();
+
+	int getMajor() { 
+		cout<<"Enter "<<name<<"'s Program of Study/Major:"; 
+		cin>>major;
+		return 0;
+	}
+};
+	
+```
+Above is a slightly modified version of the person class where we provide the name "Bob" to
+start with. Then the ```class Student: public Person``` section shows us the beginning of our 
+child or derived class named Student. This will allow us to inherit our existing person
+information (like the name) and add additional functions such as finding this student's major.
+	
 
