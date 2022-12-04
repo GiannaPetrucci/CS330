@@ -337,5 +337,12 @@ possible in C++.
 As C++ is an object oriented language (remember one of it's original names was C with Classes),
 it supports classes and objects.
 
-Classes are declared with the ```class```keyword as seen in the example below.
+Classes are declared with the ```class``` keyword as seen in the example below with the person class.
+
+https://github.com/GiannaPetrucci/CS330/blob/088a550c40bd496be99e6b991bdd2ec727e52c86/PLP5/Person.cpp#L2-L10
+
+In order to use this class and display information we **must** have a main function or file. 
+This is where we can create an object (```p1``` in the example below). Then we can plug in
+any name such as Bob. p1 then uses our ```printname()``` function from the person class
+which brings everything together.
 
