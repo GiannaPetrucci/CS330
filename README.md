@@ -329,3 +329,13 @@ possible in C++.
 	leave more room for error.
 	
 	- And of course by using debugging tools on IDE's to track down where your bugs are originating.
+
+
+### Classes and Inheritance
+
+**Object Oriented**
+As C++ is an object oriented language (remember one of it's original names was C with Classes),
+it supports classes and objects.
+
+Classes are declared with the ```class```keyword as seen in the example below.
+
