@@ -410,4 +410,25 @@ thereof.
 The diagram below shows our Student class inheriting from multiple parents.
 
 ![Multi Inheritance](Images/flowchart.png)
-
+	
+**Overloading** 
+Overloading or Function Overloading in C++ is when two or more functions have the same name but
+different parameters. 
+	
+In the example below the variables ```a``` and ```b``` are both used twice. However one version
+of each is an int and the other double. 
+```
+sum(int a, int b)
+sum(double a, double b)
+```
+This would also work in the case where our functions are taking in different numbers of
+parameters or when ordered differently such as below.
+```
+sum(int a, double b)
+sum(double a, int b)
+```
+More information on Function Overloading can be found at these links:
+	
+[Microsoft Learn](https://learn.microsoft.com/en-us/cpp/cpp/function-overloading?view=msvc-170)
+[Geeks for Geeks](https://www.geeksforgeeks.org/function-overloading-vs-function-overriding-in-cpp/)
+[Stack Overflow](https://stackoverflow.com/questions/23129741/c-method-overloading-base-and-derived-parameters)
