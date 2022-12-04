@@ -394,4 +394,8 @@ https://github.com/GiannaPetrucci/CS330/blob/278f0c4df4299c09f5c7a3ccab5767f04e4
 
 We can also create a display/str function such as the one above on line 28. This takes our name
 from the Person class and adds on the major from the Student class. Our main function once
-again calls the functions and pulls everything together. This makes our output: ```Their name is Bob and they study CS```
+again calls the functions and pulls everything together. This makes our output: ```Their name is Bob and they study CS```.
+	
+**Multiple Inheritance**
+As previously mentioned, C++ supports multiple inheritance. This is when our child class is
+inherited from more than one parent class.
